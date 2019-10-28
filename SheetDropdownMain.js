@@ -6,6 +6,13 @@ function StartFunction() {
 	  $(document).ready(function () {
 		tableau.extensions.initializeAsync().then(function() {
 			GetData();
+						unregisterEventHandlerFunction = worksheet.addEventListener(tableau.TableauEventType.FilterChanged, function (selectionEvent) {
+						  GetData();
+						});
+						
+						unregisterEventHandlerFunction2 = worksheet.addEventListener(tableau.TableauEventType.MarkSelectionChanged, function (selectionEvent) {
+						  GetData();
+						});
 		});
 	  });
 	  
