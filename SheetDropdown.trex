@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.sensitech.extensions" extension-version="1.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>Places Select Dimension Members on a Clipboard</description>
+    <author name="Matiss Seglins" email="matiss.seglins@carrier.com" organization="Sensitech" website="https://www.sensitech.com"/>
+    <min-api-version>1.0</min-api-version>
+    <source-location>
+      <url>https://statsanalysis.github.io/SheetDropdownMain.html</url>
+    </source-location>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAAEYAAABGCAQAAADbJyoPAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfjCgkJCDsdv8wEAAAC2UlEQVRo3u3aTWgcZRwH4GeSaU1MS2M3aSCiB6sQ8SYWSis5Clr8wKJ4UARR9FJQerDx1qMUz4pHRYVYUCQG4kGkNjGmFy8eBC968FCStklTdzdx9/WwazCyM1m6O7sDzm8O+zF/Zp6Zd96dmX2HtEw46wfr6kJm001XzLjbHjnqooogqGU41QVVcx4kSqQc9oHnbLnse6tCSuXtJ4jc5VHThsx5PbnwZWXbLihlgNidQ86rqDqXVDDsM8FlRzKnwKgFwcpAIuYBLLvaE8wNi5hKwgwawY2eUBqc4OBA58vpSgLkBaPApCVuvkaGDBtsfgpKBjFirGs/djV/qrSDOexJj7vfiKhxKIndi1c90xVIJLjpF/PmraeXHjXbPAdlPd3ysXtaGs6oC7EJ7zpty6Jl17rUJK32zZgTHvaiujM2ksrOKttywXhmkH8y6X01t7yQtGdYEnzbg9Nhg7Mi+MhQa0zsIVyyhpMe2+lPrVM3b7kDzB+WHDPlztb9KnZQaB4rpz3vSrM3tU7wY4f7Zg0HkjY5FjVaC/t85zX1VMx2h5gg5YIu3jWzppqKyTi5Oh0UmAJTYApMgSkwecaE1GuZHiT+1/uv3dHPC4jdmIV+QsjxMdP3FJgCU2AKzG0ncsrxvGD2e8UTecEw0M6a/ofHTDsJ+cFEIiEvmJLIRj4wY6bxc9zxgjrPEW87qeJiPzAlb9rc+fOu5Lhj9vnSJ/3AjHvnP99UfGHG1X5gtvzuLzQGODb9at6c67vvDnqV3zxldaeZasoqjTu2fmBq1qy2mpGPrp1HTLeaKW2jgsH2BhcbmE7HIZ/2bCom9oif9l5TbNMBox1iKtb32KBZ34BRbKolla0IFjrmtJcJi4JPDScVzKiqOO9Q5pQx79lW9lJSQWTSh06puGTRtQwf2hk37YT9Zr3henLplK9UM3+cKQjKPnffXvJJ56zYyHBEu27dkrfSHw76G2SeoPXYTB+9AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE5LTEwLTA5VDA5OjA4OjU5LTA0OjAwfA9ddgAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOS0xMC0wOVQwOTowODo1OS0wNDowMA1S5coAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC</icon>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">Copy Dimension Members</text>
+    </resource>
+  </resources>
+</manifest>
+
+
+
