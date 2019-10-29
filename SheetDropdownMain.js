@@ -30,8 +30,6 @@ function StartFunction() {
 					worksheet.getSummaryDataAsync().then(dataTable => {  
 						let field = dataTable.columns.find(column => column.fieldName === 'SerialNumber');  //'PONumber'
 						let values = [];  
-						if(dataTable.data.length < 501)
-						{
 						for (let row of dataTable.data)
 						{				
 							values.push(row[field.index].value);  
@@ -63,7 +61,7 @@ function StartFunction() {
 						
 						$('#ExtractedValues').empty();
 						$('#ExtractedValues').append(stringresult);
-						}
+
 						unregisterEventHandlerFunction = worksheet.addEventListener(tableau.TableauEventType.FilterChanged, function (selectionEvent) {
 						  GetData();
 						});
