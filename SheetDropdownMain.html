@@ -15,12 +15,12 @@
 
     <script src="https://statsanalysis.github.io/SheetDropdownMain.js"></script>
   </head>
-  <body>
+  <body onload="StartFunction()">
     <div class="container">
       <p id="mainContent">
         <div>
           <p id="p1"><span style="display: none" id="ExtractedValues"></span></p>
-		  <button id="CopyBtn" onclick="StartFunction()">Copy</button>
+		  <button id="CopyBtn" onclick="CopyToClipboard('#p1')">Copy</button>
         </div>
       </p>
     </div>
