@@ -12,7 +12,7 @@ tableau.extensions.initializeAsync().then(() => {
 function getData() {
   worksheet.getSummaryDataAsync().then(dataTable => {
     let field = dataTable.columns.find(
-      column => column.fieldName === "Unique ID"
+      column => column.fieldName === "SerialNumber"
     );
     let values = [];
     for (let row of dataTable.data) {
